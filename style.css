@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+}
+.img-container{   
+    position: relative;
+    z-index: 20;
+}
+img.main-image{
+    width: 100vw;
+    height: 77vh;
+    object-fit: cover;
+}
+img.main-image:hover{
+    opacity: 0.9;
+}
+.img-container2{
+    position: relative;
+    z-index: 24;
+    margin-top: -50vh;
+    
+}
+img.Zomato{
+    margin-left: 535px;
+    object-fit: cover;
+    
+}
+ul.navigation{
+  position:absolute;
+  z-index: 100;
+  top:4vh;
+  left:875px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 40px;
+  font-size: 1.5em;
+}
+.navigation li{
+    color: white;
+    text-align: center;
+}
+.quote{
+    margin-top: 25px;
+}
+.quote h2{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: lighter;
+    /* line-height: 1.5rem; */
+    font-size: 2.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.locations{
+    margin-top: 150px;
+}
+.locations h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding: 2rem;
+    font-family:sans-serif;
+}
+.locations p{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    left:100px;
+    padding: 0px 240px 50px 240px;
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+article.tags{
+    max-width: 100%;
+    padding:0px 50px 40px 50px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:14px;
+    flex-wrap: wrap;
+    border-radius: 4px;
+   
+}
+.tags a{
+    width: 30%;
+    border: 1px transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #6B6D76;
+    box-shadow: 6px 6px 5.8px whitesmoke;    
+}
+.tags a:hover{
+    box-shadow: 10px 10px 7px whitesmoke;
+}
+h2.all_countries{
+    font-size: 2.5rem;
+    margin-left: 120px;
+    font-family: sans-serif;
+}
+article.flags{
+    max-width: 100%;
+    padding: 25px 50px 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+.flags a{
+    width: 30%;
+    border: 1px transparent;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-radius: 4px;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color:#6B6D76;
+    box-shadow:6px 6px 5.8px whitesmoke; 
+}
+.flags a:hover{
+    box-shadow: 10px 10px 7px whitesmoke;
+}
+.flags strong{
+    bottom: 25px;
+}
+.first img{
+    width: 128px;
+    height: 32px;
+}
+.sec{
+    padding: 40px 120px;
+    background-color: transparent;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+}
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.second div{
+    width: 200px;
+}
+.second h4{
+    font-weight:600;
+    letter-spacing: 0.9px;
+    padding: 10px 0;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    word-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.second a:hover{
+    color: rgb(22, 22, 22);
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.second img.image{
+    width: 137px;
+    height: 40px;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box.icons{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+p.third{
+    padding: 10px 0;
+    color: gray;
+    font-size: 1rem;
+}
